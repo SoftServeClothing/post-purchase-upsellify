@@ -3,10 +3,11 @@
 client_id = "772a0afac39a2708a316fca21f60fa3d"
 name = "post-purchase-upsellify"
 handle = "post-purchase-upsellify"
-application_url = "https://app.softserveclothing.com/"
+application_url = "https://investments-journalism-editing-inclusive.trycloudflare.com"
 embedded = true
 
 [build]
+automatically_update_urls_on_dev = true
 dev_store_url = "dailey-project.myshopify.com"
 include_config_on_deploy = true
 
@@ -15,7 +16,11 @@ include_config_on_deploy = true
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://app.softserveclothing.com/api/auth" ]
+redirect_urls = [
+  "https://investments-journalism-editing-inclusive.trycloudflare.com/auth/callback",
+  "https://investments-journalism-editing-inclusive.trycloudflare.com/auth/shopify/callback",
+  "https://investments-journalism-editing-inclusive.trycloudflare.com/api/auth/callback"
+]
 
 [webhooks]
 api_version = "2024-07"
