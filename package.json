@@ -1,5 +1,6 @@
 {
   "name": "post-purchase-upsellify",
+  "author": "Dailey Project",
   "private": true,
   "scripts": {
     "build": "remix vite:build",
@@ -63,5 +64,4 @@
   "overrides": {
     "undici": "6.13.0"
   },
-  "author": "nickatkinson"
 }
