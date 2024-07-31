@@ -3,7 +3,7 @@
 client_id = "772a0afac39a2708a316fca21f60fa3d"
 name = "post-purchase-upsellify"
 handle = "post-purchase-upsellify"
-application_url = "https://french-picks-colleague-norwegian.trycloudflare.com"
+application_url = "https://nearby-weapon-registration-og.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://french-picks-colleague-norwegian.trycloudflare.com/auth/callback",
-  "https://french-picks-colleague-norwegian.trycloudflare.com/auth/shopify/callback",
-  "https://french-picks-colleague-norwegian.trycloudflare.com/api/auth/callback"
+  "https://nearby-weapon-registration-og.trycloudflare.com/auth/callback",
+  "https://nearby-weapon-registration-og.trycloudflare.com/auth/shopify/callback",
+  "https://nearby-weapon-registration-og.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
